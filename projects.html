@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
 </head>
+<script src="scripts.js"></script>
 <body>
 
 <header>
@@ -25,13 +26,15 @@
    <h1>My projects</h1>
    <hr>
    <h2>Productivity App for Children</h2>
+   <div id="project1">
+
    <h3>Graduation Project</h3>
 
    <time datetime="2025">2025-2026</time>
 
-   <p>
-      A mobile application designed to help children manage their time and daily tasks effectively.
-   </p>
+  <p>
+   A mobile application designed to help children manage their time and daily tasks effectively.
+ </p>
 
    <figure>
       <img src="App.png" alt="Logo of the Productivity App Project" width="300">
@@ -43,23 +46,27 @@
          View Project Repository
       </a>
    </p>
+   </div>
+
+<button onclick="toggleProject('project1', this)">Hide</button>
 </article>
 <br>
 <hr>
 <br>
 <article>
    <h2>HadithTrust</h2>
+<div id="project2">
+
    <h3>Trust Management in P2P Networks</h3>
 
    <time datetime="2026">2026</time>
 
-   <p>
-      A research-based project focused on enhancing trust management mechanisms <br> in
-      Peer-to-Peer (P2P) networks by improving reputation evaluation and security reliability.
-   </p>
+<p>
+   A research-based project focused on enhancing trust management mechanisms
+</p>
 
    <figure>
-      <img src="Hadith.png" alt="HadithTrust system architecture diagram" width="300">
+      <img src="File.jpg" alt="HadithTrust system architecture diagram" width="300">
       <figcaption>System architecture of the HadithTrust model.</figcaption>
    </figure>
 
@@ -68,7 +75,9 @@
          View Project Repository
       </a>
    </p>
-</article>
+   </div>
+
+<button onclick="toggleProject('project2', this)">Hide</button></article>
 
 </main>
 

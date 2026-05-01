@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
 </head>
-
+<script src="scripts.js"></script>
 <body>
 
 <header>
@@ -25,9 +25,8 @@
 
 <h1>Contact Me</h1>
 <hr>
-<form action="#">
-
-   <label for="name">Name:</label><br>
+<form action="#" onsubmit="return validateForm()">
+      <label for="name">Name:</label><br>
    <input type="text" id="name" name="name" required><br><br>
 
    <label for="email">Email:</label><br>

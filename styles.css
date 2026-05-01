@@ -116,8 +116,8 @@ background-color:#fffafd;
  
 }
 h5{
-    font-size :25px; ;
-    color: #965c81; 
+  font-size :25px; ;
+  color: #965c81; 
 
 }
 
@@ -126,7 +126,7 @@ body {
   background-size: auto;
   background-repeat: no-repeat;
   background-position: right center;
-    background-attachment: fixed;
+  background-attachment: fixed;
 
 }
 .highlight {
